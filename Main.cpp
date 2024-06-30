@@ -230,19 +230,19 @@ void Administrador(vector<ARTICULO> &items){
                 cout<<"---------------------------"<<endl;
 
                 gotoxy(10,4);
-                cout<<" Nombre del Producto: ";
+                cout<<" NOMBRE del ITEM: ";
                 color(7);
                 getline(cin, aux.nombre);
 
                 gotoxy(10,5);
                 color(10);
-                cout<<" Precio del item: ";
+                cout<<" PRECIO del ITEM: ";
                 color(7);
                 aux.precio = validar();
 
                 gotoxy(10,6);
                 color(10);
-                cout<<" Cantidad del item: "; 
+                cout<<" STOCK del ITEM: "; 
                 color(7);
                 aux.cantidad = validar();
 
